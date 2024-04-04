@@ -1,0 +1,58 @@
+.team-header {
+  background-color: #84a3f6;
+  color: #ffffff;
+  display: flex;
+  justify-content: space-between;
+  padding: 10px 3.9% 4px;
+  position: sticky;
+  top: 0;
+  z-index: 9999;
+}
+.user-data {
+  display: flex;
+  flex-direction: column-reverse;
+  padding: 10px 3%;
+}
+.user-img {
+  width: 45px;
+  height: 45px;
+  border-radius: 50%;
+}
+.user-inner {
+  display: flex;
+  border: 1px solid #f7f7f7;
+  border-radius: 7px;
+  padding: 10px 10px 10px 13px;
+  align-items: center;
+  box-shadow: 3px 2px 7px rgba(0, 0, 0, 0.075);
+}
+.user-row .role {
+  padding-top: 1rem;
+  padding-bottom: 1rem;
+}
+.role h3 {
+  color: #868ba2;
+}
+.user-row {
+  border-bottom: 1px solid #ddd;
+  padding-bottom: 2rem;
+}
+.user-inner div h6 {
+  color: #333;
+  font-weight: 600;
+  opacity: 0.9;
+}
+.user-inner div p {
+  color: #535353;
+  opacity: 0.7;
+  font-size: 10px;
+}
+.user-inner div h6,
+.user-inner div p {
+  padding-left: 20px;
+}
+.inner-user-data {
+  position: relative;
+  top: 6px;
+  line-height: 5px;
+}
